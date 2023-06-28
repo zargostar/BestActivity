@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Persistence;
 
@@ -11,9 +12,11 @@ using Persistence;
 namespace Persistence.Migrations
 {
     [DbContext(typeof(ActivityDbContext))]
-    partial class ActivityDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230628181148_addProduct")]
+    partial class addProduct
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,6 +46,9 @@ namespace Persistence.Migrations
                     b.Property<bool>("IsCancelled")
                         .HasColumnType("bit");
 
+                    b.Property<Guid>("PersonId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("Title")
                         .HasColumnType("nvarchar(max)");
 
@@ -50,6 +56,8 @@ namespace Persistence.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("PersonId");
 
                     b.ToTable("Activities");
                 });
@@ -66,6 +74,23 @@ namespace Persistence.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("Domain.Person", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("NationalCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PersonCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("People");
                 });
 
             modelBuilder.Entity("Domain.Product", b =>
@@ -90,6 +115,17 @@ namespace Persistence.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("Domain.Activity", b =>
+                {
+                    b.HasOne("Domain.Person", "Person")
+                        .WithMany("Activities")
+                        .HasForeignKey("PersonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Person");
+                });
+
             modelBuilder.Entity("Domain.Product", b =>
                 {
                     b.HasOne("Domain.Category", "Category")
@@ -104,6 +140,11 @@ namespace Persistence.Migrations
             modelBuilder.Entity("Domain.Category", b =>
                 {
                     b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("Domain.Person", b =>
+                {
+                    b.Navigation("Activities");
                 });
 #pragma warning restore 612, 618
         }

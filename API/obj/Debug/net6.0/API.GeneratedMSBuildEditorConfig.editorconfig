@@ -9,9 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = API
 build_property.RootNamespace = API
+<<<<<<< Updated upstream
 build_property.ProjectDir = C:\MyTest\API\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\MyTest\API
+=======
+build_property.ProjectDir = G:\react\udmy2\MyReactivity\Demo\BackEndactivitie\API\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\react\udmy2\MyReactivity\Demo\BackEndactivitie\API
+>>>>>>> Stashed changes
 build_property._RazorSourceGeneratorDebug = 

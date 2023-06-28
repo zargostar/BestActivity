@@ -14,5 +14,13 @@ namespace Persistence
         {
         }
         public DbSet<Activity> Activities {set;get;}
+   
+        public DbSet<Category> Categories { set; get; }
+        public DbSet<Product> Products { set; get; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+          
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }
