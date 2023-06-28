@@ -3365,11 +3365,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyTest\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "C:\\MyTest\\Persistence\\Persistence.csproj",
+      "projectPath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\",
-      "outputPath": "C:\\MyTest\\Persistence\\obj\\",
+      "outputPath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TAK COMPUTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3386,8 +3386,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\MyTest\\Application\\Application.csproj": {
-              "projectPath": "C:\\MyTest\\Application\\Application.csproj"
+            "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Application\\Application.csproj": {
+              "projectPath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Application\\Application.csproj"
             }
           }
         }

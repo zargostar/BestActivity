@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xxyOaehPl+Eb4Dyo7peiJnp2xruoQD+oUDIfvIoM63TVtShEfmNhYV8zUhPtlBAKAsf+ZfepConiltWBg75fPg==",
+  "dgSpecHash": "5Gq+HmplOcfJY+PQ4uIV6lkBoLfAofYLTc9K0vTz4mjrRHEi3rYBCHFI1HqClcurtxQHVts9Unikk7YxO0Kryw==",
   "success": true,
-  "projectFilePath": "C:\\MyTest\\Persistence\\Persistence.csproj",
+  "projectFilePath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

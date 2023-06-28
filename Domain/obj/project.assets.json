@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MyTest\\Domain\\Domain.csproj",
+      "projectUniqueName": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\MyTest\\Domain\\Domain.csproj",
+      "projectPath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\",
-      "outputPath": "C:\\MyTest\\Domain\\obj\\",
+      "outputPath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TAK COMPUTER\\AppData\\Roaming\\NuGet\\NuGet.Config",

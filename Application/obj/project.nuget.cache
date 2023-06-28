@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lF2cLUz/Fhp7OZvhWwws7yoMjASn6IzZZHl/Y+pEM8Vd+Of6tBJJT0A9+2HAq2KemKlnU5IJYtCFUOOxT7kMIQ==",
+  "dgSpecHash": "WvcUfZDdoTs4E5FODcI95mOI1YLjKnvBNF+AXIQ+5xha/xm2GxfMpl3C8OA7hdghuh37w88RMBdVXne8FCQ4ZA==",
   "success": true,
-  "projectFilePath": "C:\\MyTest\\Application\\Application.csproj",
+  "projectFilePath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
