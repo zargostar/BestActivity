@@ -13,5 +13,12 @@ namespace Persistence.Repositories
         public ActivityRepository(ActivityDbContext dbContext) : base(dbContext)
         {
         }
+
+    //    private void test()
+    //    {
+    //       var data= _dbContext.Categories.FirstOrDefault();
+            
+           
+    //    }
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5Gq+HmplOcfJY+PQ4uIV6lkBoLfAofYLTc9K0vTz4mjrRHEi3rYBCHFI1HqClcurtxQHVts9Unikk7YxO0Kryw==",
+  "dgSpecHash": "qd5vwZ7BmySpHOW0+VxvFvN97e9Ohh1NtbhcFttc4nHKCHT1zscTWD9BhhnG47YjLWLmjroHYeVpRb7XoV7idQ==",
   "success": true,
   "projectFilePath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
@@ -8,9 +8,8 @@
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
-    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
-    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
-    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

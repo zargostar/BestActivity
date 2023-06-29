@@ -19,7 +19,13 @@ namespace Persistence
         public DbSet<Product> Products { set; get; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-          
+           
+
+            modelBuilder.Entity<Category>()
+                .HasMany(p=>p.Products)
+                .WithOne(c=>c.Category).
+                OnDelete(DeleteBehavior.Cascade);
+
             base.OnModelCreating(modelBuilder);
         }
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1AnyN8bGoVOCrt2mU9K5jzGkgRovmxNjpFnuq4EPVjSK7LTAK4fEDM+lLwuV8U3BBvQFMtnJtk7JUvw/CBMwVQ==",
+  "dgSpecHash": "QXZIt0D32wcYl8P2NfX9QgGRf4R6XHkeFJDLfJ1oahur9lLh9bxWESCNsRFpnWXRt8v1P7LtZYvNtyCtIbGodQ==",
   "success": true,
   "projectFilePath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\API\\API.csproj",
   "expectedPackageFiles": [
@@ -9,9 +9,8 @@
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
-    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
-    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",

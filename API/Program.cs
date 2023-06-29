@@ -1,14 +1,12 @@
 using Application;
-using MediatR;
+
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 using Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-    // services.AddMediatR(cfg =>
-                // cfg.RegisterServicesFromAssembly(typeof(GetActivitiesQuery).Assembly));
+
 builder.Services.AddControllers();
 builder.Services.AddInfrastrauctureService();
 builder.Services.AddApplicationService();

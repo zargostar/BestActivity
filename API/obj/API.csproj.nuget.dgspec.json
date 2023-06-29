@@ -29,6 +29,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Application\\Application.csproj": {
+                "projectPath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Application\\Application.csproj"
+              },
               "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Persistence\\Persistence.csproj": {
                 "projectPath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Persistence\\Persistence.csproj"
               }
@@ -52,10 +55,6 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
-            },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[11.1.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -143,9 +142,9 @@
               "target": "Package",
               "version": "[12.0.1, )"
             },
-            "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "MediatR": {
               "target": "Package",
-              "version": "[11.1.0, )"
+              "version": "[12.0.1, )"
             }
           },
           "imports": [
