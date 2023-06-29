@@ -12,6 +12,13 @@ namespace Application.Features.Activities.Queries.GetActivities
     {
         private readonly IActivityRepository repository;
         private readonly IMapper mapper;
+
+        public GetActivitiesQueryHandler(IActivityRepository repository, IMapper mapper)
+        {
+            this.repository = repository;
+            this.mapper = mapper;
+        }
+
         public async Task<List<ActivityDto>> Handle(GetActivitiesQuery request, CancellationToken cancellationToken)
         {
 

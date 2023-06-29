@@ -6,11 +6,22 @@ using Persistence.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
+IConfiguration configuration = builder.Configuration;
 builder.Services.AddControllers();
-builder.Services.AddInfrastrauctureService();
+builder.Services.AddInfrastrauctureService(builder.Configuration);
 builder.Services.AddApplicationService();
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("CorsPolicy", policy =>
+    {
+        policy
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials()
+            .WithOrigins(configuration["AppCorse"].ToString());
 
+    });
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ActivityDbContext>(p=>p.UseSqlServer(builder.Configuration["ActivityDb"]));
@@ -32,7 +43,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.MapControllers();

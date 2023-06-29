@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hibf+ZpeR3mGNDNZL2DmYmaTQ8nxjlGeUYAO7PL4JAN/9C6KCe2T7W3A9uv+fDyH+cVoVwiOYJNEQ72Bxy6aGw==",
+  "dgSpecHash": "Kb9x/v4SbFuI1Vvx6gtkenag5nY3FxQ+uW8ldsQMW7djzYxiEmO7DePYAdxtCV1t8w1zLsl7JCS9ztaYvk5gPw==",
   "success": true,
   "projectFilePath": "G:\\react\\udmy2\\MyReactivity\\Demo\\BackEndactivitie\\Application\\Application.csproj",
   "expectedPackageFiles": [
@@ -9,10 +9,10 @@
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
-    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
-    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\TAK COMPUTER\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
