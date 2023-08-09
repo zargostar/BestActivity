@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Application.Features.Activities.Queries.GetActivities;
+using Application.Features.Activities.Queries.GetActivity;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -22,5 +23,14 @@ namespace API.Controllers
             var result= await meditor.Send(new GetActivitiesQuery());
             return  Ok(result);
         }
+
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<ActivityDto>> Get(string id)
+        {
+            var data = await meditor.Send(new GetActivityQuery(id));
+            return data;
+        }
+
     }
 }
